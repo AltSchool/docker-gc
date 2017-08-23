@@ -1,5 +1,5 @@
 DOCKER_REPOSITORY ?= altschool/docker-gc
-DOCKER_TAG ?= $(shell cat version.txt)
+DOCKER_TAG ?= docker_v$(shell cat version.txt)_base
 
 DOCKER ?= docker
 export DOCKER
